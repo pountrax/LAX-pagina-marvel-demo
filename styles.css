@@ -1,0 +1,59 @@
+body{
+    background-color:black;
+    overflow-x:hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    height:7000px;
+    padding:0;
+    margin:0;
+    background-image:url(./img/clouds2.png),url(./img/capifondo.png);
+    background-repeat:no-repeat;
+    background-position:0 100vh,0 400vh;
+    background-size:contain,contain;
+    
+}
+.logo{
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    z-index:100;
+    width:100%;
+    height:100vh
+}
+
+.header{
+    display:flex;
+    width:100%;
+    align-items:center;
+    height:110vh;
+}
+.scroll-tip{
+    color:white;
+    text-align:center;
+    font-weight:bolder;
+    font-size:48px;
+    
+}
+.ironman-title{
+    text-align:center;
+    padding:100px 0;
+    font-size:15em;
+}
+.ironman-02{
+    position:absolute;
+    /* position absolute es para que pueda estar arriba de otros objetos */
+    top:1700px;
+}
+/* capitan america */
+.captain-title{
+    text-align:center;
+    padding:70px 0;
+    font-size:2em;
+    
+}
+/* .shield-02{
+    position:absolute;
+    margin-top:-870px;
+    margin-left:470px;
+} */
